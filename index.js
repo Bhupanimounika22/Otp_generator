@@ -21,7 +21,7 @@ const transporter = nodemailer.createTransport({
 // Email options
 const mailOptions = {
   from: process.env.EMAIL_ÌD,
-  to: 'laxmisai.21mis7119@vitapstudent.ac.in',
+  to: 'enter reciver email',
   subject: 'Your OTP Code',
   text: `Your OTP code is ${otp}`,
 };
